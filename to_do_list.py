@@ -3,7 +3,7 @@ tasks = []
 while True:
     print("\nTo-Do List")
     print("1. View Tasks")
-    print("2. Add Tasks")
+    print("2. Add task")
     print("3. Exit")
 
     choice = input("Choose (1-3): ")
