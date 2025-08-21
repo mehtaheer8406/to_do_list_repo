@@ -19,8 +19,11 @@ while True:
 
     elif choice == "2":
         task = input("Enter task: ")
-        tasks.append(task)
-        print("✅ Thanks! Your task was saved.")
+        if task.strip() == "":
+         print("⚠️ Task cannot be empty!")
+        else:
+            tasks.append(task)
+            print("✅ Thanks! Your task was saved.")
     elif choice == "3":
         print(f"Goodbye 👋 You completed {len(tasks)} tasks today!")
 
