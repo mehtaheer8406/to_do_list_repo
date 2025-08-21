@@ -5,6 +5,7 @@ while True:
     print("1. View Tasks")
     print("2. Add task")
     print("3. Exit")
+    print("-" * 20)
 
     choice = input("Choose (1-3): ")
 
