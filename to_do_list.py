@@ -3,7 +3,7 @@ tasks = []
 while True:
     print("\nTo-Do List")
     print("1. View Tasks")
-    print("2. Add task")
+    print("2. Add tassk")
     print("3. Exit")
 
     choice = input("Choose (1-3): ")
@@ -14,6 +14,7 @@ while True:
         else:
             for i, t in enumerate(tasks, 1):
                 print(f"{i}. {t}")
+                 print("Total tasks:", len(tasks))
     elif choice == "2":
         task = input("Enter task: ")
         tasks.append(task)
