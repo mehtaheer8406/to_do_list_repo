@@ -15,6 +15,8 @@ while True:
             for i, t in enumerate(tasks, 1):
                 print(f"{i}. {t}")
                 print("Total tasks:", len(tasks))
+                print("✅ Thanks! Your task was saved.")
+
     elif choice == "2":
         task = input("Enter task: ")
         tasks.append(task)
